@@ -1,6 +1,6 @@
 ---
 external: false
-title: "代码块高亮使用Prism.js"
+title: "代码块高亮"
 description: "Code blocks are syntax highlighted using Prism.js"
 date: 2022-10-30
 ---

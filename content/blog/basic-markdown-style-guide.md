@@ -1,6 +1,6 @@
 ---
 external: false
-title: "“基础MD风格指南”"
+title: "“基础MD”"
 description: "You can author content using the familiar markdown syntax you already know. All basic markdown syntax is supported."
 date: 2022-11-02
 ---

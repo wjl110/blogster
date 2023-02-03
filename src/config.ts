@@ -4,7 +4,7 @@
 export const SITE_TITLE = "Kindle阅读、考研、笔记、心得";
 export const SITE_DESCRIPTION =
   "Welcome to my blog! I write about modern web development.";
-export const TWITTER_HANDLE = "@yourtwitterhandle";
+export const TWITTER_HANDLE = "@wjl110";
 export const MY_NAME = "wjl110";
 
 // setup in astro.config.mjs

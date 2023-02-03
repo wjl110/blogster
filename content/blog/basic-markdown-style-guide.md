@@ -1,81 +1,84 @@
 ---
 external: false
-title: "Basic markdown style guide"
+title: "“基础MD风格指南”"
 description: "You can author content using the familiar markdown syntax you already know. All basic markdown syntax is supported."
 date: 2022-11-02
 ---
 
-Markdown is powered by [Markdoc](https://markdoc.dev/). This is an example post to demonstrate all the basic markdown syntax. You can author content using the familiar markdown syntax you already know.
+Markdown由[Markdoc]提供支持(https://markdoc.dev/). 这是一篇演示所有基本markdown语法的示例文章。您可以使用熟悉的markdown语法编写内容。 
 
-## Inline formatting
+## 内联格式
 
-Bold: **This text is bold**.
+粗体: **此文本为粗体**.
 
-Italics: _This text is italics_.
+斜体: _此文本为斜体_.
 
-Strikethrough: You can ~~strikethrough~~ text.
+删除: 您可以 ~~删除~~ 文本.
 
-Inline code: You can add inline code like this `const hello = "world"`.
+内联代码：您可以添加这样的内联代码`const hello = "world"`.
 
-## Headings
+## 标题
 
-The following HTML `<h2>`—`<h6>` elements represent five levels of section headings. `<h1>` is also available but not recommended since the post title is already a `<h1>` element it is not a good practice to have more than one `<h1>` elements in a page.
+以下“HTML“”<h2>“-”<h6>”元素表示五个级别的节标题“<h1>”也可用，但不建议使用，因为文章标题已经是“＜h1＞”元素，因此在一个页面中有多个“＜h1>”元素不是一个好的做法。
 
-## H2: Heading Two
+## H2: 标题二
 
-### H3: Heading Three
+### H3: 标题三
 
-#### H4: Heading Four
+#### H4: 标题四
 
-##### H5: Heading Five
+##### H5: 标题五
 
-###### H6: Heading Six
+###### H6: 标题六
 
-## Paragraph
+## 段落
 
-A standalone single paragraph of text.
+一段单独的文本。
 
-Paragraphs can be multiline too when they constitute words that make up more than one line, i.e they wrap to the next line. Wow! I am really smart to write two lines of text that makes zero sense.
 
-## Blockquotes
+段落也可以是多行的，当它们组成一行以上的单词时，即它们换行到下一行。哇！我真的很聪明，能写出两行毫无意义的文字。
 
-> This is a blockquote. And it's pretty long too. Long enough to wrap to next line. Surely it will wrap.
 
-> You can use other Markdown syntax like `inline code` within a blockquote.
 
-## Tables
+## 块引号
 
-| Italics   | Bold     | Code   |
+> 这是一个大引号。而且时间也很长。足够长，可以换行到下一行。它肯定会包起来的。
+
+> 您可以在块引号中使用其他Markdown语法，如`inline code` .
+
+## 表格
+
+| 斜体   | 粗体     | 代码   |
 | --------- | -------- | ------ |
-| _italics_ | **bold** | `code` |
+| _斜体_ | **粗体** | `代码` |
 
-## List Types
+## 列表 类型
 
-### Ordered List
+### 已排序 列表
 
-1. First item
-2. Second item
-3. Third item
+1. 第一项
+2. 第二项
+3. 第三项
 
-### Unordered List
+### 未排序 列表
 
-- List item
-- Another item
-- And another item
+- 列表项目
+- 另一项
+- 还有一项
 
-### Nested list
+### 嵌套 列表
 
-- Fruit
-  - Apple
-  - Orange
-  - Banana
-- Dairy
-  - Milk
-  - Cheese
+- 水果
+ - 苹果
+ - 橙色
+ - 香蕉
+- 乳制品
+ - 牛奶
+ - 奶酪
 
-## Code Blocks
+## 代码 块
 
-Syntax highlighting is done using [Prism.js](https://github.com/PrismJS/prism). You can customise to whichever theme you want from the [plenty available prism themes](https://github.com/PrismJS/prism-themes).
+语法高亮显示使用[Prism.js]完成(https://github.com/PrismJS/prism). 您可以从[大量可用的棱镜主题]中定制您想要的主题(https://github.com/PrismJS/prism-themes).
 
 ```html
 <!DOCTYPE html>

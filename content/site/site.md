@@ -1,5 +1,5 @@
 ---
-external: true
+external: false
 title: 文本测试
 draft: false
 description: 文本测试

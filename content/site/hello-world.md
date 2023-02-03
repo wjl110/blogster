@@ -1,5 +1,5 @@
 ---
-external: true
+external: false
 draft: false
 title: Hello World
 description: It's a beautiful world out there.
